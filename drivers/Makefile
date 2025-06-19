@@ -188,3 +188,4 @@ obj-$(CONFIG_TEE)		+= tee/
 
 obj-y			        += htc_debug/
 obj- += lindroid-drm/
+obj-$(CONFIG_DRM_LINDROID_EVDI) += lindroid-drm/
